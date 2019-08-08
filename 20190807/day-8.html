@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./scss/day-8.css">
+    <title>Document</title>
+</head>
+<body data-type="pay">
+    <div data-wrap>
+        <div data-form data-type="payInfo">
+            <h2 data-title="paymentStatus">입금 대기</h2>
+            <p data-rev-index>예약번호 : Y2482667</p>
+            <div data-check>
+                <dl data-check-info="checkIn">
+                    <dt data-check-info="inTxt">체크인</dt>
+                    <dd data-check-info="in">2019.01.01(목) 15:00 오후</dd>
+                </dl>
+                <dl data-check-info="checkOut">
+                    <dt data-check-info="outTxt">체크아웃</dt>
+                    <dd data-check-info="out">2019.01.02(금) 11:00 이전</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div data-from data-type="pension">
+            <h2 data-title="pensionName">홍천 휘게리 하우스 펜션</h2>
+            <p data-room-name>클래식2(독채,복층,월풀,커플 객실명길게다보여주기</p>
+            <p data-room-info="peopleCnt">기준 6명 | 최대 8명</p>
+            <p data-room-info="roomStructure">거실 + 방, 독채형</p>
+            <div data-map="map">
+                <img src="https://grandpark.seoul.go.kr/resource/img/zoo/zooMap_min.png" data-map="img">
+            </div>
+            <div data-map="address">
+                <div data-map="addressInfo"><!--<img src="./light.png" />-->
+                    경기 가평군 청평면 호반로 976<br />(지번)경기 가평군 청첨면 고성리 761-5</div> <!-- befor로 이미지 붙이기 -->
+                <div data-map="addressCopy">주소복사</div>
+            </div>       
+        </div>
+        <div data-from data-type="payment">
+            <div data-receipt="detail">
+                <dl data-receipt="room">
+                    <dt data-receipt="roomPriceTxt">객실 금액</dt>
+                    <dd data-receipt="roomPrice">+112,000원</dd>
+                </dl>
+                <dl data-receipt="discount">
+                    <dt data-receipt="companyDiscountTxt">기업 할인(20%)</dt>
+                    <dd data-receipt="companyDiscount">-112,000원</dd>
+                </dl>
+            </div>
+            <div data-receipt="total">
+                <dl data-receipt="">
+                    <dt data-receipt="priceTxt">총 결제 금액</dt>
+                    <dd data-receipt="price">244,000원</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

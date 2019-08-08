@@ -1,0 +1,40 @@
+/* reset */
+* { margin: 0; padding: 0; border:0;}
+li { list-style: none;}
+img { font-size: 0; line-height: 0;}
+
+[data-type="pay"]{
+    [data-wrap]{width: 380px; margin:0 auto;}
+}
+[data-type="payInfo"]{padding-top:32px;
+    [data-title="paymentStatus"]{font-family: NanumBarunGothic;font-size: 20px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);}
+    [data-rev-index]            {padding-top:6px; font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;color: #666666;}
+    [data-check]                {padding-top:11px; padding-bottom:10px; border-bottom: 1px solid #e3e3e3;}
+    [data-check-info="checkIn"] {overflow: hidden; padding-top:6px;}
+    [data-check-info="inTxt"]   {float: left; font-family: NanumBarunGothic;font-size: 14px;color: #666666;}
+    [data-check-info="in"]      {overflow: hidden;font-family: NanumBarunGothic;font-size: 16px;text-align: right;color: var(--black);}
+    [data-check-info="checkOut"]{overflow: hidden; padding-top:6px;}
+    [data-check-info="outTxt"]  {float: left; width:40%;font-family: NanumBarunGothic;font-size: 14px;color: #666666;}
+    [data-check-info="out"]     {overflow: hidden;font-family: NanumBarunGothic;font-size: 16px;text-align: right;color: var(--black);}
+}
+[data-type="pension"]{padding-top:24px;
+    [data-title="pensionName"]  {font-family: NanumBarunGothic;font-size: 18px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);}
+    [data-room-name]            {padding-top: 16px; padding-bottom:6px; font-family: NanumBarunGothic;font-size: 16px;}
+    [data-room-info]            {font-family: NanumBarunGothic;font-size: 12px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.33;letter-spacing: normal;color: #666666;}
+    [data-map="map"]            {padding-top:24px; overflow: hidden; height: 100px;}
+    [data-map="img"]            {width: 100%; height: 100%;border-radius: 6px;}
+    [data-map="address"]        {padding-top:24px; padding-bottom:24px; position: relative; padding-bottom:10px; border-bottom: 1px solid #e3e3e3;}
+    [data-map="addressInfo"]    {font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;color: #666666;}
+    [data-map="addressCopy"]    {position: absolute; right: 0px; top:24px;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;text-align: right;color: var(--Secondary_Blue);}
+}
+[data-type="payment"]{padding-top:26px;
+    [data-receipt="room"]{overflow: hidden;}
+    [data-receipt="roomPriceTxt"]{float:left;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: #666666;}
+    [data-receipt="roomPrice"]{overflow: hidden;font-family: NanumBarunGothic;font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: right;color: var(--black);}
+    [data-receipt="discount"]{padding-top:14px;overflow: hidden; padding-bottom: 14px; border-bottom: 1px solid #e3e3e3;}
+    [data-receipt="companyDiscountTxt"]{float:left;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: #666666;}
+    [data-receipt="companyDiscount"]{overflow: hidden;font-family: NanumBarunGothic;font-size: 16px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: right;color: var(--black);}
+    [data-receipt="total"]{padding-top:24px; overflow: hidden;}
+    [data-receipt="priceTxt"]{float:left; font-family: NanumBarunGothic;font-size: 20px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);}
+    [data-receipt="price"]{overflow: hidden; font-family: NanumBarunGothic;font-size: 20px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);text-align: right;}
+}
