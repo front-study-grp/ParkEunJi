@@ -4,7 +4,7 @@ li { list-style: none;}
 img { font-size: 0; line-height: 0;}
 
 [data-type="pay"]{
-    [data-wrap]{width: 380px; margin:0 auto;}
+    [data-wrap]{width: 340px; margin:0 auto;}
 }
 [data-type="payInfo"]{padding-top:32px;
     [data-title="paymentStatus"]{font-family: NanumBarunGothic;font-size: 20px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);}
@@ -24,8 +24,8 @@ img { font-size: 0; line-height: 0;}
     [data-map="map"]            {padding-top:24px; overflow: hidden; height: 100px;}
     [data-map="img"]            {width: 100%; height: 100%;border-radius: 6px;}
     [data-map="address"]        {padding-top:24px; padding-bottom:24px; position: relative; padding-bottom:10px; border-bottom: 1px solid #e3e3e3;}
-    [data-map="addressInfo"]    {font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;color: #666666;}
-    [data-map="addressCopy"]    {position: absolute; right: 0px; top:24px;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;text-align: right;color: var(--Secondary_Blue);}
+    [data-map="addressInfo"]    {padding-left:28px;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;color: #666666;}
+    [data-map="addressCopy"]    {position: absolute; right: 0px; top:24px;font-family: NanumBarunGothic;font-size: 14px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: 1.43;letter-spacing: normal;text-align: right;color: #2373df;}
 }
 [data-type="payment"]{padding-top:26px;
     [data-receipt="room"]{overflow: hidden;}
@@ -38,3 +38,4 @@ img { font-size: 0; line-height: 0;}
     [data-receipt="priceTxt"]{float:left; font-family: NanumBarunGothic;font-size: 20px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);}
     [data-receipt="price"]{overflow: hidden; font-family: NanumBarunGothic;font-size: 20px;font-weight: bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: var(--black);text-align: right;}
 }
+#addressInfo:before{content: url('./light.png'); position: absolute; left: 0px;}
