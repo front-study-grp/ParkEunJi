@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        /* reset */
+        * { margin: 0; padding: 0; border:0;}
+        li { list-style: none;}
+        img { font-size: 0; line-height: 0;}
+
+        .wrap{width:800px; border: 1px solid red; margin:0 auto;}
+        .img_view{height: 500px;}
+        .main_img{width: 100%; height: 100%;}
+        .img_list_view_list{overflow: hidden;}
+        .img_list_view{float: left; overflow: hidden; width:20%;}
+        .small_img{width:100%; height: 100%;}
+    </style>
+    <title>Document</title>
+</head>
+    <body>
+        <div class="wrap">
+            <div class="img_view" id="placeholder">
+                <img src="./01.png" class="main_img"/>
+            </div>
+        
+        
+            <ul class="img_list_view_list" id="pics">
+                <li class="img_list_view"><button><img src="./01.png" class="small_img" /></button></li>
+                <li class="img_list_view"><button><img src="./02.jpg" class="small_img" /></button></li>
+                <li class="img_list_view"><button><img src="./03.jpg" class="small_img" /></button></li>
+                <li class="img_list_view"><button><img src="./04.jpg" class="small_img" /></button></li>
+                <li class="img_list_view"><button><img src="./05.jpg" class="small_img" /></button></li>
+            </ul>
+            
+        </div>
+    </body>
+    <script>
+        const placeholder   = document.getElementById('placeholder');
+        const btns          = document.getElementById('pics').getElementsByTagName('button');
+
+        for(let i=0; i<btns.length; i++){
+            btns[i].onclick = function(){
+                placeholder.firstElementChild.setAttribute('src', this.firstChild.getAttribute('src'));
+            }
+        }
+
+    </script>
+</html>  
